@@ -203,5 +203,5 @@ form button:hover {
 }
 
 .xdebug-var-dump > small:first-child {
-    display: block;
+    display: none;
 }
