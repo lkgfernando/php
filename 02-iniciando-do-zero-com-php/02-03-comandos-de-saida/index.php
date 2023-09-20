@@ -26,8 +26,6 @@ echo "<h3>".$hello."".$code."</h3>";
 
 echo "<h3>{$hello}". " " . "Teste </h3>";
 
-
-
 /**
  * [ print ] https://php.net/manual/pt_BR/function.print.php
  */
