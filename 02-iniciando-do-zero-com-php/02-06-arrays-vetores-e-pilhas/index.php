@@ -7,6 +7,22 @@ fullStackPHPClassName("02.06 - Arrays, vetores e pilhas");
  */
 fullStackPHPClassSession("index array", __LINE__);
 
+$arrA = array(1, 2, 3);
+$arrA = [0, 1, 2, 3];
+
+var_dump($arrA);
+
+$arrayIndex = [
+    "Fernando",
+    "Kauan",
+    "Livia Maria"
+];
+
+$arrayIndex[] = "Glacieli";
+$arrayIndex[] = "Joãozinho";
+
+var_dump($arrayIndex);
+
 
 /**
  * [ associative array ] "key" => "value"
