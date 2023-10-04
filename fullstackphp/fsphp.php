@@ -24,7 +24,7 @@ set_error_handler("fullStackPHPErrorHandler");
  */
 ini_set("display_errors", 1);
 ini_set("error_reporting", E_ALL);
-ini_set('xdebug.overload_var_dump', 1);
+ini_set('xdebug.filename_format=%n', 1);
 
 /**
  * [ interface ] Style, icon and logo
